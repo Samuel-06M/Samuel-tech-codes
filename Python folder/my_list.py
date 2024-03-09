@@ -13,7 +13,7 @@ my_list.insert(1, 15)
 # Extend my_list with another list: [50, 60, 70]
 my_list.extend([50, 60, 70])
 
-# Remove the last element from my_list
+# Remove the lastC:\Users\USER\Desktop\PLP FOLDER\Python folder\my_list.py element from my_list
 my_list.pop()
 
 # Sort my_list in ascending order
