@@ -1,13 +1,6 @@
-# user_input.py
+#write a program that asks the user for their name, age, and location and then prints out a personalized message.
+name=input("What is your name?")
+age=input("How old are you?")
+location=input("Where do you live?")
 
-# Ask the user for their name
-name = input("What is your name? ")
-
-# Ask the user for their age
-age = input("How old are you? ")
-
-# Ask the user for their location
-location = input("Where do you live? ")
-
-# Print out a personalized message
-print(f"Hello {name}, you are {age} years old and live in {location}.")
+print("Your name is",name,"you are",age,"years old, you come from",location)
