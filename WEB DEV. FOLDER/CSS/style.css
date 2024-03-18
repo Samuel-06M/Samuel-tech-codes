@@ -4,7 +4,7 @@ p{
     font-size: 60px;
 }
     
-    #green{
+#green{
     color: green;
     font-size: 20px;
     }
@@ -26,6 +26,6 @@ p{
     }
     
     .container img{
-    width: 100%;
+    width: 80%;
     height: auto;
     }
