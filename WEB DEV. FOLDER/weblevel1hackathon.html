@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="css/level1hackathon.css">
+</head>
+<body>
+
+    <center><h1>WELCOME TO MY WEB PAGE</h1></center>
+
+    <p class="red-paragraph">My name is Mwai Samuel. I'm passionate about web development and excited to share my knowledge with you.</p>
+
+    <h2>Links</h2>
+    <p>Check out these links:</p>
+    <ul>
+        <li><a href="https://www.greenyard.com" target="_blank">greenyard</a></li>
+        <li><a href="page2.html">Link to Page 2</a></li>
+    </ul>
+
+    <div class="image-container">
+        <img src="Assets/tech.jpg" technology Image">
+      </div>
+      
+
+    <section class="form-section">
+        <h2>Form</h2>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+            <fieldset>
+                <legend>Gender:</legend>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+            </fieldset>
+            <label for="subjects">Subjects:</label><br>
+            <select id="subjects" name="subjects[]" multiple>
+                <option value="English">English</option>
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="Art and Craft">Art and Craft</option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Geography">Geography</option>
+                <option value="History">History</option>
+            </select><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="hidden" id="sessionId" name="sessionId" value="session_id_value">
+            <input type="button" value="Cancel" onclick="clearForm()">
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+
+
+</body>
+</html>
